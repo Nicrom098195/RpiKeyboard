@@ -27,7 +27,7 @@ git clone github.com/Nicrom098195/RpiKeyboard.git
 To make working the keyboard we must to have installed the right dependencies:
 
 ```sh
-pip3 install dep
+pip3 install pynput
 ```
 
 ### Running the code
