@@ -1,5 +1,5 @@
 # RpiKeyboard
-This is a project to make a five-buttons keyboard for a Raspberry Pi (I used Raspberry Pi 4 Model B 8GB ram).
+This is a project to make a five-buttons keyboard for Raspberry Pi (I used Raspberry Pi 4 Model B 8GB ram).
 
 ## Circuit
 
