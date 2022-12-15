@@ -44,11 +44,7 @@ We can run automatically the keyboard when we turn on our Raspberry Pi, but this
 
 To autostart the keyboard, let's make an autostart script
 ```sh
-cd ~/.config/autostart
-touch keyboard
-echo "cd ~/RpiKeyboard" >> keyboard
-echo "python3 keyboard.py" >> keyboard
-chmod +x keyboard
+mv ~/RpiKeyboard/keyboard.desktop ~/.config/autostart/keyboard.desktop
 ```
 
 And now, when we reboot the Pi, the keyboard will work automatically
