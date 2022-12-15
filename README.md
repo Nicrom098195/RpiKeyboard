@@ -20,7 +20,7 @@ sudo apt install git
 After we can download the code typing
 ```sh
 cd ~
-git clone github.com/Nicrom098195/RpiKeyboard.git
+git clone https://github.com/Nicrom098195/RpiKeyboard.git
 ```
 ### Installing dependencies
 
