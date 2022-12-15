@@ -3,13 +3,13 @@ This is a project to make a five-buttons keyboard for Raspberry Pi (I used Raspb
 
 ## Circuit
 
-First of all we must to make the phisical keyboard, and there is the circuit (I user Fritzing to draw it), and we can already cover it with a box, or customize it
+First of all we must to make the phisical keyboard, and there is the circuit (I used Fritzing to draw it), and we can already cover it with a box, or customize it
 
 [![Keyboard](https://raw.githubusercontent.com/Nicrom098195/RpiKeyboard/main/Keyboard.png)]()
 
 ## Software
 
-After we must to install the keyboard software, that's easy than how it looks, we must only to downoad it:
+After we have to install the keyboard software, that's easy than how it looks, we must only to downoad it:
 
 ### Downloading code
 
@@ -24,7 +24,7 @@ git clone https://github.com/Nicrom098195/RpiKeyboard.git
 ```
 ### Installing dependencies
 
-To make working the keyboard we must to have installed the right dependencies:
+To make working the keyboard we need to have installed the right dependencies:
 
 ```sh
 pip3 install pynput
@@ -47,4 +47,4 @@ To autostart the keyboard, let's make an autostart script
 mv ~/RpiKeyboard/keyboard.desktop ~/.config/autostart/keyboard.desktop
 ```
 
-And now, when we reboot the Pi, the keyboard will work automatically
+And now, when you reboot the Pi, the keyboard will work automatically
